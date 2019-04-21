@@ -1,0 +1,107 @@
+lab4.TestBackPack
+
+
+======================================== Generating Original Test Results ========================================
+{test=pass}
+
+
+======================================== Executing Mutants ========================================
+test report: {test=}
+mutant report: {}
+
+
+======================================== Executing Mutants ========================================
+  CDL_1{test=test: 26; 3}
+  CDL_10{test=test: 26; -1}
+  CDL_11{test=test: 26; 3}
+  CDL_12{test=test: 26; arrays first differed at element [1][6]; expected:<4> but was:<8>}
+  CDL_13{test=test: 26; -1}
+  CDL_14{test=test: 26; 3}
+  CDL_15{test=test: 26; arrays first differed at element [3][7]; expected:<9> but was:<0>}
+  CDL_16{test=test: 26; arrays first differed at element [2][3]; expected:<4> but was:<0>}
+  CDL_2{test=test: 26; 10}
+  CDL_3{test=pass}
+  CDL_4{test=pass}
+  CDL_5{test=test: 26; arrays first differed at element [3][3]; expected:<4> but was:<0>}
+  CDL_6{test=test: 26; arrays first differed at element [1][10]; expected:<4> but was:<0>}
+  CDL_7{test=test: 26; 3}
+  CDL_8{test=test: 26; arrays first differed at element [3][7]; expected:<9> but was:<6>}
+  CDL_9{test=pass}
+  COI_1{test=pass}
+  COI_2{test=pass}
+  COI_3{test=test: 26; arrays first differed at element [1][3]; expected:<4> but was:<0>}
+  COI_4{test=test: 26; arrays first differed at element [1][3]; expected:<4> but was:<0>}
+  COI_5{test=test: 26; -2}
+  COI_6{test=test: 26; arrays first differed at element [1][3]; expected:<4> but was:<0>}
+  LOI_1{test=test: 26; fail}
+  LOI_10{test=test: 26; -1}
+  LOI_11{test=test: 26; 3}
+  LOI_12{test=test: 26; arrays first differed at element [1][3]; expected:<4> but was:<0>}
+  LOI_14{test=test: 26; 11}
+  LOI_15{test=test: 26; arrays first differed at element [1][3]; expected:<4> but was:<0>}
+  LOI_17{test=test: 26; -3}
+  LOI_18{test=test: 26; arrays first differed at element [1][3]; expected:<4> but was:<0>}
+  LOI_19{test=test: 26; -3}
+  LOI_2{test=test: 26; fail}
+  LOI_20{test=test: 26; -4}
+  LOI_21{test=test: 26; -3}
+  LOI_22{test=test: 26; -7}
+  LOI_23{test=test: 26; -3}
+  LOI_24{test=test: 26; -3}
+  LOI_25{test=test: 26; -2}
+  LOI_26{test=test: 26; -4}
+  LOI_27{test=test: 26; -3}
+  LOI_28{test=test: 26; -7}
+  LOI_29{test=test: 26; -3}
+  LOI_3{test=test: 26; 4}
+  LOI_30{test=test: 26; -3}
+  LOI_31{test=test: 26; -4}
+  LOI_32{test=test: 26; -8}
+  LOI_33{test=test: 26; -5}
+  LOI_34{test=test: 26; -8}
+  LOI_35{test=test: 26; -2}
+  LOI_36{test=test: 26; -2}
+  LOI_37{test=test: 26; -3}
+  LOI_38{test=test: 26; -2}
+  LOI_4{test=pass}
+  LOI_6{test=test: 26; -1}
+  LOI_7{test=test: 26; 11}
+  LOI_8{test=pass}
+test report: {test=CDL_1, CDL_10, CDL_11, CDL_12, CDL_13, CDL_14, CDL_15, CDL_16, CDL_2, CDL_5, CDL_6, CDL_7, CDL_8, COI_3, COI_4, COI_5, COI_6, LOI_1, LOI_10, LOI_11, LOI_12, LOI_14, LOI_15, LOI_17, LOI_18, LOI_19, LOI_2, LOI_20, LOI_21, LOI_22, LOI_23, LOI_24, LOI_25, LOI_26, LOI_27, LOI_28, LOI_29, LOI_3, LOI_30, LOI_31, LOI_32, LOI_33, LOI_34, LOI_35, LOI_36, LOI_37, LOI_38, LOI_6, LOI_7}
+mutant report: {COI_6=test, COI_3=test, COI_2=, COI_5=test, COI_4=test, LOI_6=test, LOI_7=test, LOI_8=, LOI_1=test, LOI_2=test, LOI_3=test, LOI_4=, COI_1=, LOI_29=test, CDL_1=test, CDL_2=test, CDL_3=, LOI_36=test, LOI_37=test, LOI_38=test, LOI_32=test, LOI_33=test, LOI_34=test, LOI_35=test, LOI_30=test, LOI_31=test, LOI_18=test, LOI_19=test, CDL_4=, LOI_25=test, CDL_5=test, LOI_26=test, CDL_6=test, LOI_27=test, CDL_7=test, LOI_28=test, CDL_8=test, LOI_21=test, CDL_9=, LOI_22=test, LOI_23=test, LOI_24=test, LOI_20=test, CDL_13=test, CDL_14=test, CDL_11=test, CDL_12=test, CDL_10=test, CDL_15=test, CDL_16=test, LOI_14=test, LOI_15=test, LOI_17=test, LOI_10=test, LOI_11=test, LOI_12=test}
+lab4.TestBubbleSort
+
+
+======================================== Generating Original Test Results ========================================
+{test=pass}
+
+
+======================================== Executing Mutants ========================================
+  COI_1{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  COI_2{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  COI_3{test=test: 15; arrays first differed at element [0]; expected:<1> but was:<6>}
+  ODL_1{test=pass}
+  ODL_13{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  ODL_14{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  ODL_17{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  ODL_18{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  ODL_19{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  ODL_2{test=pass}
+  ODL_20{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  ODL_6{test=pass}
+  ODL_7{test=test: 15; arrays first differed at element [2]; expected:<2> but was:<6>}
+  ODL_8{test=test: 15; 5}
+  ODL_9{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  VDL_10{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  VDL_2 time_out: more than 10000 seconds
+  VDL_3{test=pass}
+  VDL_5 time_out: more than 10000 seconds
+  VDL_6{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+  VDL_9{test=test: 15; arrays first differed at element [1]; expected:<2> but was:<6>}
+test report: {test=COI_1, COI_2, COI_3, ODL_13, ODL_14, ODL_17, ODL_18, ODL_19, ODL_20, ODL_7, ODL_8, ODL_9, VDL_10, VDL_2, VDL_5, VDL_6, VDL_9}
+mutant report: {ODL_19=test, VDL_10=test, VDL_9=test, COI_3=test, COI_2=test, ODL_9=test, ODL_8=test, VDL_3=, VDL_2=test, VDL_6=test, VDL_5=test, ODL_1=, ODL_2=, ODL_7=test, ODL_20=test, ODL_6=, COI_1=test, ODL_14=test, ODL_13=test, ODL_18=test, ODL_17=test}
+
+
+======================================== Executing Mutants ========================================
+test report: {test=COI_1, COI_2, COI_3, ODL_13, ODL_14, ODL_17, ODL_18, ODL_19, ODL_20, ODL_7, ODL_8, ODL_9, VDL_10, VDL_2, VDL_5, VDL_6, VDL_9}
+mutant report: {ODL_19=test, VDL_10=test, VDL_9=test, COI_3=test, COI_2=test, ODL_9=test, ODL_8=test, VDL_3=, VDL_2=test, VDL_6=test, VDL_5=test, ODL_1=, ODL_2=, ODL_7=test, ODL_20=test, ODL_6=, COI_1=test, ODL_14=test, ODL_13=test, ODL_18=test, ODL_17=test}
